@@ -4,12 +4,14 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Top from "./component/top";
 import Navbar from "./component/navbar";
+import HeroSection from "./component/hero-section";
 
 function App() {
   return (
     <section>
       <Top />
       <Navbar />
+      <HeroSection />
     </section>
   );
 }
